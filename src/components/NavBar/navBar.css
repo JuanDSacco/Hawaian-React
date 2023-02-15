@@ -1,0 +1,11 @@
+.listaIndiv{
+    list-style: none;
+    font-size: 25px;
+    color: rgb(212, 119, 65);
+    text-decoration: underline;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}

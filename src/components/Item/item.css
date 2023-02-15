@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat:wght@500;600&family=Raleway:ital,wght@1,500&display=swap');
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: 'Caveat', cursive;
+    background-image: repeating-radial-gradient(rgb(92, 51, 46),rgb(128, 86, 69),rgb(92, 51, 46));
+    color: white;
+    padding: 10px;
+}
+
+.div1{
+    padding-top: 50px;
+    background-image: repeating-radial-gradient();
+}
+
+.div1 h1{
+    font-size: 35px;
+}
+
+.div1 h2{
+    font-size: 25px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.div1 span{
+    color: orange;
+}
+
+a button{
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+    padding: 3px;
+}
+
