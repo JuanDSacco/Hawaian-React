@@ -1,6 +1,8 @@
 import NavBar from "../NavBar/NavBar";
 import './home.css'
-import Index from '../../assets/index.jpg';
+import Index from '../../assets/index.png';
+import Footer from "../Footer/Footer";
+
 
 const Home = () => {
     return(
@@ -13,6 +15,7 @@ const Home = () => {
                     <NavBar/>
                 </div>
             </header>
+            <Footer className='divFooter'/>
         </>
     )
 }

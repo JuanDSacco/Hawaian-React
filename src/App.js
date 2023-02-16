@@ -1,8 +1,9 @@
 import './App.css';
-import ItemListContainer from './components/ItemListContainer/ItemListContainer';
-import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
+import ItemListContainer from './components/Routes/ItemListContainer/ItemListContainer';
+import ItemDetailContainer from './components/Routes/ItemDetailContainer/ItemDetailContainer';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './components/Home/Home';
+
 
 function App() {
   return (

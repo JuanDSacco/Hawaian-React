@@ -8,8 +8,8 @@ const Item = ({data}) => {
                 <div className="div1">
                     <h1>Nombre: <span>{data.strDrink}</span></h1>
                     <h2>Categoría: <span>{data.strCategory}</span></h2>
-                    <Link to={`/tragos/${data.idDrink}`}><button>Ver detalles</button></Link>
-                    <Link to={`/`}><button>Volver al inicio</button></Link>
+                    <Link to={`/tragos/${data.idDrink}`} className='buttonItem'><button>Ver detalles</button></Link>
+                    <Link to={`/`} className='buttonItem'><button>Volver al inicio</button></Link>
                 </div>
                 <div className="div2">
                     <img src={data.strDrinkThumb} alt='imagen trago' style={{width:"250px",height:"250px",borderRadius:"50%"}}/>
