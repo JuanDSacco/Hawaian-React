@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat:wght@500;600&family=Raleway:ital,wght@1,500&display=swap');
+
+.botonDisminuir{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.botonAumento{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.cantidad{
+    font-size: 25px;
+    padding-left: 5px;
+}
+
+.divAñadir{
+    padding-top: 10px;
+}
+
+.botonAñadir{
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+    padding-left: 3px;
+    padding-right: 5px;
+}

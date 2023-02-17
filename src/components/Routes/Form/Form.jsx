@@ -1,6 +1,7 @@
-import { getDirestore, addDoc, collection, getFirestore } from 'firebase/firestore';
-import { UseCartContext } from '../../context/CartContext';
+import { addDoc, collection, getFirestore } from 'firebase/firestore';
+import { UseCartContext } from "../../../context/CartContext";
 import { useState } from 'react';
+import './form.css'
 
 const Form = () => {
 
@@ -28,7 +29,7 @@ const Form = () => {
         }else{
             const db = getFirestore();
             const userCollection = collection(db, 'compra')
-                .addDoc(userCollection, factura)
+                addDoc(userCollection, factura)
                 .then((res) => {
                     alert('Se envió corectamente')
                     setId(res.id)
@@ -47,18 +48,24 @@ const Form = () => {
         <div className='form'>
             <form onSubmit={finishClick}>
                 <div className='div-form'>
-                    <label htmlFor='nombre'>Nombre</label>
+                    <div className='label'>
+                        <label htmlFor='nombre'>Nombre</label>
+                    </div>
                     <input className='input-form' type='text' id='nombre' name='name' onChange={changeHandler} value={form.name}/>
                 </div>
                 <div>
-                    <label htmlFor='email'>email</label>
+                    <div className='label'>
+                        <label htmlFor='email'>Email</label>
+                    </div>
                     <input className='input-form' type='text' id='email' name='email' onChange={changeHandler} value={form.email}/>
                 </div>
                 <div>
-                    <label htmlFor='mensaje'>Telefono</label>
-                    <input className='input-form' type='text' id='Telefono' name='Telefono' onChange={changeHandler} value={form.phone}/>
+                    <div className='label'>
+                        <label htmlFor='mensaje'>Telefono</label>
+                    </div>
+                    <input className='input-form' type='text' id='phone' name='phone' onChange={changeHandler} value={form.phone}/>
                 </div>
-                <div>
+                <div className='divBtnFrom'>
                     <button type='submit' className='boton-form'>Enviar</button>
                 </div>
             </form>

@@ -5,13 +5,14 @@ const Item = ({data}) => {
     return(
         <>
             <div className='contenedor-carta'>
-                <h1>{data.titulo}</h1>
-                <h2>{data.precio}</h2>
-                <img src={data.imagen} alt='foto cocktail'/>
+                <h1 className="h1Carta">{data.titulo}</h1>
+                <img src={data.imagen} alt='foto-cocktail' className="foto-cocktail"/>
+                <h2 className="h2Carta">Precio ${data.precio}</h2>
                 <div>
-                    <Link to={`/tragos/${data.id}`}>Ver Detalle</Link>
+                    <Link to={`/item/${data.id}`} className='verDetalle'>Ver Detalle</Link>
                 </div>
             </div>
+            <hr></hr>
         </>
     )
 }

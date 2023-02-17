@@ -12,9 +12,9 @@ const ItemDetail = ({data}) => {
 
     return(
         <div className="container-detalle">
-            <h2>{data.titulo}</h2>
-            <img src={data.imagen} alt='foto cocktail' />
-            <h3>Precio ${data.precio}</h3>
+            <h1>{data.titulo}</h1>
+            <img src={data.imagen} alt='foto cocktail' className='foto-cocktail'/>
+            <h2>Precio ${data.precio}</h2>
             <ItemCount data={data} onAdd={onAdd} />
         </div>
     )

@@ -1,11 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat:wght@500;600&family=Raleway:ital,wght@1,500&display=swap');
+
+.barraNav{
+    background-image: linear-gradient(rgba(255, 0, 0, 0.603),orange,rgba(255, 0, 0, 0.603));
+}
+
 .listaIndiv{
     list-style: none;
     font-size: 25px;
-    color: rgb(212, 119, 65);
-    text-decoration: underline;
+    color: white;
+    font-family: 'Caveat', cursive;
 }
 
 a{
     text-decoration: none;
-    color: white;
 }
+
+
