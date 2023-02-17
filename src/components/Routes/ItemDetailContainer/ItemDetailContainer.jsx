@@ -1,19 +1,21 @@
 import { useState,useEffect } from 'react';
 import ItemDetail from '../ItemDetail/ItemDetail';
 import { useParams } from 'react-router-dom';
+import { getFirestore, doc, getDoc } from 'firebase/firestore';
 
 const ItemDetailContainer = () => {
-    const API = 'https://www.thecocktaildb.com/api/json/v1/1/search.php?s=';
+    const [data,setData] = useState([]);
+    const { id } = useParams();
 
-    const [ data, setData ] = useState([]);
-    const { id } = useParams()
     useEffect(() => {
-        fetch(API)
-        .then((res) => res.json())
-        .then((data) => setData(data.drinks.find((item) => item.idDrink === (id))))
+        const querydb = getFirestore();
+        const queryDoc = doc(querydb, 'items', id);
+        getDoc(queryDoc)
+        .then(res => setData({id:res.id, ...res.data()}))
     },[id]);
+    
 
     return <ItemDetail data={data} />
 }
 
-export default ItemDetailContainer;
+export default ItemDetailContainer;   

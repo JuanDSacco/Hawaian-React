@@ -1,17 +1,26 @@
 import { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
 import ItemList from "../ItemList/ItemList";
+import { getFirestore, collection, getDocs, query, where } from 'firebase/firestore';
 
 const ItemListContainer = () => {
 
-    const API = 'https://www.thecocktaildb.com/api/json/v1/1/search.php?s=';
-
-    const [ data, setData ] = useState([]);
+    const [data,setData] = useState([]);
+    const { categoriaId } = useParams();
 
     useEffect(() => {
-        fetch(API)
-        .then((res) => res.json())
-        .then((res) => setData(res.drinks))
-    },[]);
+        const querydb = getFirestore();
+        const queryCollection = collection(querydb, 'items')
+
+        if(categoriaId){
+            const queryFilter = query(queryCollection, where('categoria', '==', categoriaId))
+            getDocs(queryFilter)
+            .then(res => setData(res.docs.map(data => ({id:data.id, ...data.data()}))))
+        }else{
+            getDocs(queryCollection)
+            .then(res => setData(res.docs.map(data => ({id: data.id, ...data.data()}))))
+        }
+    },[categoriaId])
 
     return <ItemList data={data}/>
 }
