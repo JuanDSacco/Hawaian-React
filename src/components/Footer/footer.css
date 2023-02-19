@@ -1,7 +1,37 @@
-.divImg{
-    height: 200px;
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat:wght@500;600&family=Raleway:ital,wght@1,500&display=swap');
+
+
+.footerContainer{
+    background-color: black;
+    font-family: 'Caveat', cursive;
+    color: orange;
+    text-align: center;
 }
 
-.divImg img{
-    height: 300px;
+.divContUbi{
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.divDerechos{
+    text-align: center;
+}
+
+ul li{
+    list-style: none;
+}
+
+.listaRedes{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.h3Contacto{
+    font-size: 30px;
+}
+
+.listaDatos{
+    font-size: 20px;
 }

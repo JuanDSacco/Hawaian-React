@@ -4,12 +4,22 @@
     height: 40px;
     width: 40px;
     border-radius: 50%;
+    border-color: orange;
+}
+
+.botonDisminuir:hover{
+    font-weight: bold;
 }
 
 .botonAumento{
     height: 40px;
     width: 40px;
     border-radius: 50%;
+    border-color: orange;
+}
+
+.botonAumento:hover{
+    font-weight: bold;
 }
 
 .cantidad{
@@ -26,4 +36,11 @@
     font-size: 25px;
     padding-left: 3px;
     padding-right: 5px;
+    border-radius: 5px;
+    border-color: orange;
+}
+
+.botonAñadir:hover{
+    color: orange;
+    font-weight: bold;
 }

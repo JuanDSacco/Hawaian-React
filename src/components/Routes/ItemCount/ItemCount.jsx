@@ -25,6 +25,7 @@ const ItemCount = ({data,onAdd}) => {
                 <span className='cantidad'>Cantidad: {contador}</span>
             </div>
             <div className='divAñadir'>
+                {/*agregar alert para avisar al cliente que su producto fue añadido*/}
             <button onClick={agregarProducto} className='botonAñadir'>Añadir al carrito</button>
             </div>
         </>

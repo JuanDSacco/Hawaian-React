@@ -7,6 +7,7 @@ import CartProvider from './context/CartContext';
 import Cart from './components/Routes/Cart/Cart';
 import Form from './components/Routes/Form/Form';
 import NavBar from './components/NavBar/NavBar';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
             <Route path='/cart' element={<Cart/>}/>
             <Route path='/form' element={<Form/>}/>
           </Routes>
+          <Footer/>
         </CartProvider>
       </BrowserRouter>
     </div>

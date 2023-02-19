@@ -11,8 +11,8 @@ const Cart = () => {
             {
                 cart.length === 0 ?
                 // creo la visualizacion del carrito en estado vacio
-                <div>
-                    <h2>El carrito se encuetra vacio</h2>
+                <div className="cartVacio">
+                    <h2>¡ El carrito se encuetra vacio  !</h2>
                 </div>
                 : 
                 <div className="cartContainer">
@@ -22,10 +22,10 @@ const Cart = () => {
                         <div className="cartContainer2">
                             <h1>{data.titulo}</h1>
                             <img src={data.imagen} alt='imagen coctail' className='foto-cocktail'/>
-                            <h2>Precio ${data.precio}</h2>
-                            <h3 className="cantidad">Cantidad: {data.cantidad}</h3>
-                            <div>
+                            <h2>Precio por unidad = ${data.precio}</h2>
+                            <div style={{display:"flex",paddingBottom:"10px"}}>                                       
                                 <button className="decrease" disable={data.cantidad <= 0 && removeProduct(data.id)} onClick={() => eliminarPorUnidad (data.id)}>Eliminar unidad -</button>
+                                <h3 className="cantidad">Unidades: {data.cantidad}</h3> 
                             </div>
                         </div>
                     </div>
@@ -36,7 +36,7 @@ const Cart = () => {
                         <button className="vaciar-carrito" onClick={clearCart}>Vaciar carrito</button>
                     </div>
                     <div>
-                        <h2 className="precioTotal">Total: ${totalPrice()}</h2>
+                        <h2 className="precioTotal">Total = ${totalPrice()}</h2>
                     </div>
                     <div>
                         <Link to={`/form`}><button className="continuar-compra">Continuar</button></Link>

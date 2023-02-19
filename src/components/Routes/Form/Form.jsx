@@ -66,7 +66,8 @@ const Form = () => {
                     <input className='input-form' type='text' id='phone' name='phone' onChange={changeHandler} value={form.phone}/>
                 </div>
                 <div className='divBtnFrom'>
-                    <button type='submit' className='boton-form'>Enviar</button>
+                    {/* renderizar la app una vez que el cliente envia el formulario */}
+                    <button type='submit' className='boton-form'> Enviar </button>
                 </div>
             </form>
         </div>

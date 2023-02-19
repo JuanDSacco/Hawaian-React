@@ -30,3 +30,8 @@
     color: white;
     font-size: 30px;
 }
+
+.verDetalle:hover{
+    color: black;
+    font-weight: bold;
+}

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat:wght@500;600&family=Raleway:ital,wght@1,500&display=swap');
+
 .cartContainer{
     background-image: linear-gradient(rgba(255, 0, 0, 0.603),orange,rgba(255, 0, 0, 0.603));
     font-family: 'Caveat', cursive;
@@ -5,7 +7,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 500px;
+    height: max-content;
 }
 
 .cartContainer2{
@@ -22,19 +24,63 @@
     border-color: orange;
 }
 
+.vaciar-carrito:hover{
+    font-weight: bold;
+    color: orange;
+}
+
 .decrease{
-    font-size: 16px;
+    font-size: 24px;
     padding-left: 5px;
     padding-right: 5px;
     border-radius: 5px;
     border-color: orange;
+    font-family: 'Caveat', cursive;
+}
 
+.decrease:hover{
+    font-weight: bold;
+    color: orange;
 }
 
 .continuar-compra{
-    font-size: 16px;
+    font-size: 24px;
     padding-left: 5px;
     padding-right: 5px;
     border-radius: 5px;
     border-color: orange;
+    transition: .5s, color .10s;
+    -webkit-transition: .5s, color .10s;
+    -moz-transition: .5s, color .10s;
+    font-family: 'Caveat', cursive;
+}
+
+.continuar-compra:hover{
+        transform: scale3d(1.5, 1.5, 0.3);
+        -webkit-transform: scale3d(1.5, 1.5, 0.3);
+        -moz-transform: scale3d(1.5, 1.5, 0.3);
+        color: orange;
+}
+
+.cartVacio{
+    background-image: linear-gradient(rgba(255, 0, 0, 0.603),orange,rgba(255, 0, 0, 0.603));
+    font-family: 'Caveat', cursive;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    height: 300px;
+    padding-top: 200px;
+}
+
+.vaciar-carrito{
+    font-family: 'Caveat', cursive;
+    font-size: 24px;
+}
+
+.precioTotal{
+    font-size: 50px;
+}
+
+.cantidad{
+    font-size: 35px;
 }
