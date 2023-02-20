@@ -1,7 +1,7 @@
-import Carrito from '../../../assets/cart.png';
-import { UseCartContext } from '../../../context/CartContext';
+import Carrito from '../../assets/cart.png';
+import { UseCartContext } from '../../context/CartContext';
 import { Link } from 'react-router-dom';
-import './cartWidget.css'
+import '../../css/cartWidget.css'
 
 const CartWidget = () => {
 

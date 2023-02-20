@@ -1,6 +1,6 @@
 import { UseCartContext } from "../../../context/CartContext";
 import { Link } from "react-router-dom";
-import './cart.css'
+import '../../../css/cart.css'
 
 const Cart = () => {
     //desestructuracion del contexto, aca colocamos solo las funciones y estados que vayamos a utilizar en el componente.

@@ -1,6 +1,6 @@
 
-import './home.css'
-import Index from '../../assets/index.png';
+import '../../../css/home.css'
+import Index from '../../../assets/index.png';
 
 
 const Home = () => {

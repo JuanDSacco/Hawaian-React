@@ -1,23 +1,21 @@
 import { addDoc, collection, getFirestore } from 'firebase/firestore';
 import { UseCartContext } from "../../../context/CartContext";
 import { useState } from 'react';
-import './form.css'
+import '../../../css/form.css'
+
+const initialState = {name:'',email:'',phone:''}
 
 const Form = () => {
 
     const [id, setId] = useState();
-    const [form, setForm] = useState({                  
-        name:'',
-        email:'',
-        phone:'',
-    });
+    const [form, setForm] = useState(initialState);
 
     // Desestructuracion de contexto
     const {cart, totalPrice, clearCart } = UseCartContext();
 
     const factura = {
         form, 
-        items: cart.map(data => ({id:data.id, titulo: data.titulo, precio: data.precio, cantidad:data.cantidad})),
+        items: cart.map(data => ({id: data.id, titulo: data.titulo, precio: data.precio, cantidad: data.cantidad})),
         total: totalPrice()
     }
 
@@ -34,7 +32,9 @@ const Form = () => {
                     alert('Se envió corectamente')
                     setId(res.id)
                     clearCart();
+                    setForm(initialState);
                 })
+                
         }
     }
 
