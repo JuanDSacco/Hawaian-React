@@ -9,6 +9,7 @@ import Form from './components/Routes/Form/Form';
 import NavBar from './components/NavBar/NavBar';
 import Footer from './components/Footer/Footer';
 import Contacto from './components/Routes/Contacto/Contacto';
+import QuienesSomos from './components/Routes/QuienesSomos/QuienesSomos';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <Route path='/cart' element={<Cart/>}/>
             <Route path='/form' element={<Form/>}/>
             <Route path='/contacto' element={<Contacto/>} />
+            <Route path='/nosotros' element={<QuienesSomos/>} />
           </Routes>
           <Footer/>
         </CartProvider>

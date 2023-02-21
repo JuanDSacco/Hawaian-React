@@ -1,13 +1,16 @@
 import { useState } from 'react';
 import '../../css/itemCount.css'
+import Disminuir from '../Buttons/Disminuir/Disminuir';
+import Aumento from '../Buttons/Aumento/Aumento';
+import AgregarProducto from '../Buttons/AgregarProducto/AgregarProducto';
 
-const ItemCount = ({data,onAdd}) => {
+const ItemCount = ({onAdd}) => {
 
     const [contador,setContador] = useState(1);
 
     const botonAumento = () => {
         setContador(contador + 1);
-    };
+    };                                              /* para componetizar las funciones, tendria que llevarme el hook a cada una? */
 
     const botonDisminuir = () => {
         contador > 0 ? setContador(contador - 1) : setContador(0);
@@ -15,18 +18,18 @@ const ItemCount = ({data,onAdd}) => {
 
     const agregarProducto = () => {
         onAdd(contador);
+        alert('Se añadó al carrito');
     }
 
     return(
         <>
             <div>
-                <button onClick={botonDisminuir} className='botonDisminuir'> - </button>
-                <button onClick={botonAumento} className='botonAumento'> + </button>
+                <Disminuir botonDisminuir={botonDisminuir}/>
+                <Aumento botonAumento={botonAumento}/>
                 <span className='cantidad'>Cantidad: {contador}</span>
             </div>
             <div className='divAñadir'>
-                {/*agregar alert para avisar al cliente que su producto fue añadido*/}
-            <button onClick={agregarProducto} className='botonAñadir'>Añadir al carrito</button>
+                <AgregarProducto agregarProducto={agregarProducto}/>
             </div>
         </>
     )

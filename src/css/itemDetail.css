@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat:wght@500;600&family=Raleway:ital,wght@1,500&display=swap');
 
-:root{
-    --fuente1: 'Caveat', cursive;
-}
-
 .container-detalle{
     background-image: linear-gradient(rgba(255, 0, 0, 0.603),orange,rgba(255, 0, 0, 0.603));
     font-family: 'Caveat', cursive;
@@ -11,39 +7,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 500px;
+    height: 530px;
 }
 
 span{
     color: white;
 }
 
-.volverATragos{
-    font-family: 'Caveat', cursive;
-    font-size: 25px;
-    padding-left: 3px;
-    padding-right: 5px;
-}
-
-.volverATragos:hover{
-    color: orange;
-    font-weight: bold;
-}
-
 .divAñadir{
     padding-top: 10px;
-}
-
-.buttonGoToCart{
-    font-family: 'Caveat', cursive;
-    font-size: 25px;
-    padding-left: 3px;
-    padding-right: 5px;
-}
-
-.buttonGoToCart:hover{
-    color: orange;
-    font-weight: bold;
 }
 
 .divGoToCart{

@@ -1,15 +1,14 @@
-import { Link } from "react-router-dom";
 import '../../css/item.css'
+import VerDetalle from "../Buttons/VerDetalle/VerDetalle";
+import Card from "../Card/Card";
 
 const Item = ({data}) => {
     return(
         <>
             <div className='contenedor-carta'>
-                <h1 className="h1Carta">{data.titulo}</h1>
-                <img src={data.imagen} alt='foto-cocktail' className="foto-cocktail"/>
-                <h2 className="h2Carta">Precio ${data.precio}</h2>
+                <Card data={data}/>
                 <div>
-                    <Link to={`/item/${data.id}`} className='verDetalle'>Ver Detalle</Link>
+                    <VerDetalle data={data}/>
                 </div>
             </div>
             <hr></hr>

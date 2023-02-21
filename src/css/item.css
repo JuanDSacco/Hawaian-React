@@ -12,26 +12,3 @@
     height: 400px;
 }
 
-.foto-cocktail{
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-}
-
-.h1Carta{
-    font-size: 60px;
-}
-
-.h2Carta{
-    font-size: 45px;
-}
-
-.verDetalle{
-    color: white;
-    font-size: 30px;
-}
-
-.verDetalle:hover{
-    color: black;
-    font-weight: bold;
-}

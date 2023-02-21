@@ -1,12 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat:wght@500;600&family=Raleway:ital,wght@1,500&display=swap');
 
-.cartVacio{
+.cartContainer{
     background-image: linear-gradient(rgba(255, 0, 0, 0.603),orange,rgba(255, 0, 0, 0.603));
     font-family: 'Caveat', cursive;
     color: white;
-    font-size: 50px;
-    text-align: center;
-    height: 300px;
-    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: max-content;
 }
 
+.cartContainer2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.precioTotal{
+    font-size: 50px;
+}
+
+.cantidad{
+    font-size: 35px;
+}

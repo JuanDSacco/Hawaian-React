@@ -1,0 +1,11 @@
+.volverATragos{
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+    padding-left: 3px;
+    padding-right: 5px;
+}
+
+.volverATragos:hover{
+    color: orange;
+    font-weight: bold;
+}
