@@ -5,7 +5,7 @@ const ListaContactos = () => {
     return(
         <div className='footerContainer'>
             <div className='divContUbi'>
-                <div className='contacto'>
+                <div>
                     <h3 className='h3Contacto'>Contactanos</h3>
                     <ul>
                         <li className='listaDatos'>Numero: +54 11 3432 5690</li>

@@ -6,3 +6,8 @@
     color: white;
     font-family: 'Caveat', cursive;
 }
+
+.listaIndiv:hover{
+    font-weight: bold;
+    font-size: 35px;
+}

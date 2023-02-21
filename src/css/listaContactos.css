@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat:wght@500;600&family=Raleway:ital,wght@1,500&display=swap');
 
-
 .footerContainer{
     background-color: black;
     font-family: 'Caveat', cursive;
@@ -17,6 +16,7 @@
 
 .divDerechos{
     text-align: center;
+    padding: 15px;
 }
 
 ul li{
