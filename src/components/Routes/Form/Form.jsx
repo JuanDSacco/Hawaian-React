@@ -5,7 +5,7 @@ import '../../../css/form.css'
 import Formulario from '../../Formulario/Formulario';
 
 
-const initialState = {name:'',email:'',phone:''}
+const initialState = {name:'',email:'',phone:'',message:''}
 
 const Form = () => {
 
@@ -49,6 +49,7 @@ const Form = () => {
     return(
         <div className='form'>
             <Formulario finishClick={finishClick} form={form} changeHandler={changeHandler} />
+            
         </div>
     )
 }

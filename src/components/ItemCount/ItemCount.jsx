@@ -1,25 +1,25 @@
-import { useState } from 'react';
 import '../../css/itemCount.css'
 import Disminuir from '../Buttons/Disminuir/Disminuir';
 import Aumento from '../Buttons/Aumento/Aumento';
 import AgregarProducto from '../Buttons/AgregarProducto/AgregarProducto';
+import { useState } from 'react';
 
 const ItemCount = ({onAdd}) => {
 
     const [contador,setContador] = useState(1);
 
-    const botonAumento = () => {
-        setContador(contador + 1);
-    };                                              /* para componetizar las funciones, tendria que llevarme el hook a cada una? */
+        const botonAumento = () => {
+            setContador(contador + 1);
+        };                                              /* para componetizar las funciones, tendria que llevarme el hook a cada una? */
+    
+        const botonDisminuir = () => {
+            contador > 0 ? setContador(contador - 1) : setContador(0);
+        }
 
-    const botonDisminuir = () => {
-        contador > 0 ? setContador(contador - 1) : setContador(0);
-    }
-
-    const agregarProducto = () => {
-        onAdd(contador);
-        alert('Se añadó al carrito');
-    }
+        const agregarProducto = () => {
+            onAdd(contador);
+            alert('Se añadó al carrito');
+        }
 
     return(
         <>
