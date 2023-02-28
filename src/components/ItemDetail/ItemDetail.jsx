@@ -1,5 +1,5 @@
 import '../../css/itemDetail.css'
-import { UseCartContext } from "../../context/CartContext";
+import { useCartContext } from "../../context/CartContext";
 import ItemCount from "../ItemCount/ItemCount";
 import Card from '../Card/Card';
 import VolverATragos from '../Buttons/VolverATragos/VolverATragos'
@@ -7,7 +7,7 @@ import GoToCart from '../Buttons/GoToCart/GoToCart';
 
 const ItemDetail = ({data}) => {
     // Desestructuracion del contexto
-    const { addProduct } = UseCartContext();
+    const { addProduct } = useCartContext();
 
     const onAdd = ( contador ) => {
         addProduct(data,contador)

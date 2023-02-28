@@ -3,7 +3,7 @@ import React, { useContext,useState } from "react";
 const CartContext = React.createContext([])
 //crear HOOK para exportar el contexto en una sola linea.
 
-export const UseCartContext = () => useContext(CartContext);
+export const useCartContext = () => useContext(CartContext);
 //useContext es una funcion que ejecuta nuestro contexto. 
 
 // Debemos crear el Provider. 

@@ -1,5 +1,5 @@
 import { addDoc, collection, getFirestore } from 'firebase/firestore';
-import { UseCartContext } from "../../../context/CartContext";
+import { useCartContext } from "../../../context/CartContext";
 import { useState } from 'react';
 import '../../../css/form.css'
 import Formulario from '../../Formulario/Formulario';
@@ -13,7 +13,7 @@ const Form = () => {
     const [form, setForm] = useState(initialState);
 
     // Desestructuracion de contexto
-    const {cart, totalPrice, clearCart } = UseCartContext();
+    const {cart, totalPrice, clearCart } = useCartContext();
 
     const factura = {
         form, 

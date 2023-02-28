@@ -1,12 +1,12 @@
 import Carrito from '../../assets/cart.png';
-import { UseCartContext } from '../../context/CartContext';
+import { useCartContext } from '../../context/CartContext';
 import { Link } from 'react-router-dom';
 import '../../css/cartWidget.css'
 
 const CartWidget = () => {
 
     // Desestructuracion del contexto
-    const { cantidadItem } = UseCartContext();
+    const { cantidadItem } = useCartContext();
 
     return(
         <>
