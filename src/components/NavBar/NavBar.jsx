@@ -3,6 +3,7 @@ import CartWidget from '../CartWidget/CartWidget';
 import Tragos from '../Buttons/Tragos/Tragos';
 import Contact from '../Buttons/Contact/Contact';
 import Nosotros from '../Buttons/Nosotros/Nosotros';
+import HomeNavBar from '../Buttons/HomeNavBar/HomeNavBar';
 
 
 const NavBar = () => {
@@ -10,6 +11,7 @@ const NavBar = () => {
         <>
             <nav className='barraNav'>
                 <ul style={{display:"flex", justifyContent:"space-evenly",alignItems:"center"}}>
+                    <HomeNavBar/>
                     <Tragos/>
                     <Contact/>
                     <Nosotros/>
