@@ -16,7 +16,7 @@ const ListaContactos = () => {
                 </div>
             </div>
             <div className='divDerechos'>
-            <h5>Todos los derechos reservados por Copyright</h5>
+            <h5>Todos los derechos reservados por Copyright 2023</h5>
             </div>
         </div>
     )
