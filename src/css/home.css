@@ -4,14 +4,14 @@ header{
     text-align: center;    
     position: relative;
     font-family: 'Caveat', cursive;
-    height: 548px;
+    height: 800px;
     background-image: linear-gradient(rgba(255, 0, 0, 0.603),orange,rgba(255, 0, 0, 0.603));
     
 }
 
 .img_index{
-    width: max-content;
-    height: 548px;
+    width: 1663px;
+    height: 800px;
 }
 
 .h1_h2{

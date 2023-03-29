@@ -13,9 +13,10 @@ const ItemDetailContainer = () => {
         getDoc(queryDoc)
         .then(res => setData({id:res.id, ...res.data()}))
     },[id]);
-    
 
-    return <ItemDetail data={data} />
+    return <ItemDetail data={data}/>
 }
 
 export default ItemDetailContainer;   
+
+// const filteredMovies = data.filter((movie) => movie.titulo.toLowerCase().includes(buscar.toLowerCase()))
