@@ -3,7 +3,7 @@ import '../../css/listaRedes.css'
 const ListaRedes = () => {
     return(
         <div>
-            <ul style={{display:"flex",justifyContent:"center"}}>
+            <ul className='ulListaRedes'>
                 <li className='listaRedes'><i className="fa-brands fa-facebook"></i></li>
                 <li className='listaRedes'><i className="fa-brands fa-instagram"></i></li>
                 <li className='listaRedes'><i className="fa-brands fa-whatsapp"></i></li>

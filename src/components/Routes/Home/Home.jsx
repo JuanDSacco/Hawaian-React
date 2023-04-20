@@ -5,7 +5,6 @@ import Index from '../../../assets/index.png';
 
 const Home = () => {
     return(
-        <>
             <header>
                 <img src={Index} alt="index" className="img_index"/>
                 <div className="h1_h2">
@@ -13,7 +12,6 @@ const Home = () => {
                     <h2>¡Los tragos más exóticos!</h2>
                 </div>
             </header>
-        </>
     )
 }
 

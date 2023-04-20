@@ -1,4 +1,9 @@
 .listaRedes{
-    padding-left: 20px;
     padding-top: 10px;
+}
+
+.ulListaRedes{
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 35px;
 }

@@ -8,18 +8,15 @@ import HomeNavBar from '../Buttons/HomeNavBar/HomeNavBar';
 
 const NavBar = () => {
     return(
-        <>
             <nav className='barraNav'>
-                <ul style={{display:"flex", justifyContent:"space-evenly",alignItems:"center"}}>
+                <ul style={{display:"flex", justifyContent:"space-evenly",alignItems:"center", margin:'0px'}}>
                     <HomeNavBar/>
                     <Tragos/>
                     <Contact/>
                     <Nosotros/>
                     <CartWidget/>
                 </ul>
-                
             </nav>
-        </>
     )
 }
 
