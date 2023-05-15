@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Nosotros = () => {
 
-    return <Link to={`/nosotros`}><li className='listaIndiv'>Quienes somos</li></Link>
+    return <Link to={`/nosotros`}><li className='listaIndiv'>Detalle</li></Link>
 }
 
 export default Nosotros;

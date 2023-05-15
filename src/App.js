@@ -8,8 +8,7 @@ import Cart from './components/Routes/Cart/Cart';
 import Form from './components/Routes/Form/Form';
 import NavBar from './components/NavBar/NavBar';
 import Footer from './components/Footer/Footer';
-import Contacto from './components/Routes/Contacto/Contacto';
-import QuienesSomos from './components/Routes/QuienesSomos/QuienesSomos';
+import Detalle from './components/Routes/Detalle/Detalle';
 
 function App() {
   return (
@@ -23,8 +22,7 @@ function App() {
             <Route path='/item/:id' element={<ItemDetailContainer/>} />
             <Route path='/cart' element={<Cart/>}/>
             <Route path='/form' element={<Form/>}/>
-            <Route path='/contacto' element={<Contacto/>} />
-            <Route path='/nosotros' element={<QuienesSomos/>} /> 
+            <Route path='/nosotros' element={<Detalle/>} /> 
           </Routes>
           <Footer/>
         </CartProvider>

@@ -5,7 +5,7 @@ header{
     position: relative;
     font-family: 'Caveat', cursive;
     height: 720px;
-    width: auto;
+    width: 1280px;
     background-image: linear-gradient(rgba(255, 0, 0, 0.603),orange,rgba(255, 0, 0, 0.603));
 }
 
