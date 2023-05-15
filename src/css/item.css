@@ -13,3 +13,18 @@
     width: 1280px;
 }
 
+.hrItem{
+    margin: 0;
+    width: 1280px;
+}
+
+@media only screen and (min-width: 913px) and (max-width: 1024px){
+
+    .contenedor-carta{
+        width: 1024px;
+    }
+
+    .hrItem{
+        width: 1024px;
+    }
+}

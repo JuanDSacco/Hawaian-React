@@ -32,3 +32,10 @@ ul li{
 .listaDatos{
     font-size: 20px;
 }
+
+@media only screen and (min-width: 913px) and (max-width: 1024px){
+
+    .footerContainer{
+        width: 1024px;
+    }
+}

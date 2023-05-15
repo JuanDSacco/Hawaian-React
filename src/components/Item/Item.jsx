@@ -11,7 +11,7 @@ const Item = ({data}) => {
                     <VerDetalle data={data}/>
                 </div>
             </div>
-            <hr style={{margin:'0px', width:'1280px'}}/>
+            <hr className='hrItem'/>
         </>
     )
 }

@@ -22,3 +22,10 @@ a{
     align-items: center;
     margin: 0;
 }
+
+@media only screen and (min-width: 913px) and (max-width: 1024px){
+
+    .barraNav{
+        width: 1024px;
+    }
+}
