@@ -28,31 +28,4 @@
     margin: 0;
 }
 
-@media only screen and (min-width: 913px) and (max-width: 1024px){
 
-    .barraNav{
-        width: 1024px;
-    }
-}
-
-@media only screen and (min-width:821px) and (max-width:912px){
-
-    .listaIndiv a{
-        font-size: 35px;
-    }
-}
-
-@media only screen and (min-width:769px) and (max-width:820px){
-
-    .ulNavBar{
-        padding-top: 15px;
-    }
-
-    .barraNav{
-        height: 90px;
-    }
-
-    .listaIndiv a{
-        font-size: 45px;
-    }
-}

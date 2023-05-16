@@ -25,32 +25,5 @@
     font-size: 35px;
 }
 
-@media only screen and (min-width: 913px) and (max-width: 1024px){
 
-    .cartContainer{
-        width: 1024px;
-    }
-}
-
-@media only screen and (min-width:821px) and (max-width:912px){
-
-    .cartContainer{
-        height: 610px;
-    }
-
-    .unidades{
-        font-size: 35px;
-    }
-}
-
-@media only screen and (min-width:769px) and (max-width:820px){
-    
-    .cartContainer{
-        height: 610px;
-    }
-
-    .unidades{
-        font-size: 40px;
-    }
-}
 

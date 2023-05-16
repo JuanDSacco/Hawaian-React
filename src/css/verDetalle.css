@@ -12,16 +12,3 @@
     font-weight: bold;
 }
 
-@media only screen and (min-width:821px) and (max-width:912px){
-
-    .verDetalle{
-        font-size: 30px;
-    }
-}
-
-@media only screen and (min-width:769px) and (max-width:820px){
-
-    .verDetalle{
-        font-size: 30px;
-    }
-}

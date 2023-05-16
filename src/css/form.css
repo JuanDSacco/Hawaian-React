@@ -11,9 +11,3 @@
     width: 1280px;
 }
 
-@media only screen and (min-width:913px) and (max-width: 1024px){
-
-    .form{
-        width: 1024px;
-    }
-}

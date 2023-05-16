@@ -15,15 +15,3 @@
     font-weight: bold;
 }
 
-@media only screen and (min-width:821px) and (max-width:912px){
-
-    .botonAñadir{
-        font-size: 35px;
-    }
-}
-
-@media only screen and (min-width:769px) and (max-width:820px){
-    .botonAñadir{
-        font-size: 35px;
-    }
-}
