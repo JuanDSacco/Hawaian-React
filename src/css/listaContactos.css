@@ -5,7 +5,8 @@
     font-family: 'Caveat', cursive;
     color: orange;
     text-align: center;
-    width: 1280px;
+    width: 1440px;
+    height: 270px;
 }
 
 .divContUbi{
@@ -13,11 +14,13 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    padding-top: 40px;
 }
 
 .divDerechos{
     text-align: center;
-    padding: 15px;
+    padding-top: 30px;
+    
 }
 
 ul li{
@@ -25,11 +28,11 @@ ul li{
 }
 
 .h3Contacto{
-    font-size: 30px;
+    font-size: 35px;
     padding-left: 25px;
 }
 
 .listaDatos{
-    font-size: 20px;
+    font-size: 25px;
 }
 

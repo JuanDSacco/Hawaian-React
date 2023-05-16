@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat:wght@500;600&family=Raleway:ital,wght@1,500&display=swap');
 
+.divDecrease{
+    padding-right: 15px;
+}
+
 .decrease{
-    font-size: 24px;
+    font-size: 30px;
     padding-left: 5px;
     padding-right: 5px;
     border: 1px solid orange;
     border-radius: 7%;
-
     font-family: 'Caveat', cursive;
 }
 
