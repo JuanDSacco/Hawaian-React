@@ -1,9 +1,27 @@
 .verDetalle{
-    color: white;
-    font-size: 30px;
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+    padding-left: 5px;
+    padding-right: 10px;
+    border: 1px solid orange;
+    border-radius: 7%;
 }
 
 .verDetalle:hover{
-    color: rgb(238, 174, 35);
+    color: orange;
     font-weight: bold;
+}
+
+@media only screen and (min-width:821px) and (max-width:912px){
+
+    .verDetalle{
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width:769px) and (max-width:820px){
+
+    .verDetalle{
+        font-size: 30px;
+    }
 }

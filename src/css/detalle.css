@@ -23,3 +23,17 @@ background-image: linear-gradient(rgba(255, 0, 0, 0.603),orange,rgba(255, 0, 0, 
         width: 1024px;
     }
 }
+
+@media only screen and (min-width:821px) and (max-width:912px){
+
+    .containerDetalle{
+        font-size: 40px;
+    }
+}
+
+@media only screen and (min-width:769px) and (max-width:820px){
+    
+    .containerDetalle{
+        font-size: 40px;
+    }
+}

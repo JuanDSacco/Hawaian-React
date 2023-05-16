@@ -4,12 +4,31 @@
     font-size: 24px;
     padding-left: 5px;
     padding-right: 5px;
-    border-radius: 5px;
-    border-color: orange;
+    border: 1px solid orange;
+    border-radius: 7%;
+
     font-family: 'Caveat', cursive;
 }
 
 .decrease:hover{
     font-weight: bold;
     color: orange;
+}
+
+@media only screen and (min-width:821px) and (max-width:912px) {
+
+    .decrease{
+        font-size: 35px;
+    }
+}
+
+@media only screen and (min-width:769px) and (max-width:820px){
+
+    .divDecrease{
+        padding-right: 15px;
+    }
+
+    .decrease{
+        font-size: 35px;
+    }
 }

@@ -14,7 +14,7 @@ const MapCart = ({cart, removeProduct, eliminarPorUnidad, clearCart, totalPrice}
                         <Card data={data}/>
                         <div style={{display:"flex",paddingBottom:"10px"}}>                                       
                             <EliminarUnidad removeProduct={removeProduct} eliminarPorUnidad={eliminarPorUnidad} data={data}/>
-                            <h3 className="cantidad">Unidades: {data.cantidad}</h3> 
+                            <h3 className="unidades">Unidades: {data.cantidad}</h3> 
                         </div>
                     </div>
                 </div>

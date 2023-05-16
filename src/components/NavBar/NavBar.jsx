@@ -9,10 +9,10 @@ const NavBar = () => {
     return(
             <nav className='barraNav'>
                 <ul className='ulNavBar'>
-                    <HomeNavBar/>
-                    <Tragos/>
-                    <Nosotros/>
-                    <CartWidget/>
+                    <li className='listaIndiv'><HomeNavBar/></li>
+                    <li className='listaIndiv'><Tragos/></li>
+                    <li className='listaIndiv'><Nosotros/></li>
+                    <li className='listaIndiv'><CartWidget/></li>
                 </ul>
             </nav>
     )

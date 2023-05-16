@@ -10,7 +10,7 @@ const ItemCount = ({onAdd}) => {
 
         const botonAumento = () => {
             setContador(contador + 1);
-        };                                              /* para componetizar las funciones, tendria que llevarme el hook a cada una? */
+        };                                              
     
         const botonDisminuir = () => {
             contador > 0 ? setContador(contador - 1) : setContador(0);

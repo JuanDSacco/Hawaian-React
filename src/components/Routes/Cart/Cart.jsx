@@ -13,7 +13,7 @@ const Cart = () => {
                 cart.length === 0 ?
                 // creo la visualizacion del carrito en estado vacio
                 <div className="cartVacio">
-                    <h2>¡ El carrito se encuetra vacio  !</h2>
+                    <h2 className="h2CartEmpty">¡ El carrito se encuetra vacio  !</h2>
                     <VolverATragos/>
                 </div>
                 : 
