@@ -22,3 +22,10 @@ span{
 .divGoToCart{
     padding-top: 10px;
 }
+
+@media only screen and (min-width:993px) and (max-width:1200px){
+
+    .container-detalle{
+        width: 1200px;
+    }
+}
