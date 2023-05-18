@@ -6,8 +6,10 @@ const ListaContactos = () => {
         <div className='footerContainer'>
             <div className='divContUbi'>
                 <div>
+                    <div>
                     <h3 className='h3Contacto'>Contactanos</h3>
-                    <ul>
+                    </div>
+                    <ul className="ulFooter">
                         <li className='listaDatos'>Numero: +54 11 3432 5690</li>
                         <li className='listaDatos'>Email: hawaiancocktail@gmail.com</li>
                         <li className='listaDatos'>Direccion: Av. 9 de Julio 2680</li>

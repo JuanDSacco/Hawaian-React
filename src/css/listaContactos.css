@@ -20,7 +20,6 @@
 .divDerechos{
     text-align: center;
     padding-top: 30px;
-    
 }
 
 ul li{
@@ -47,5 +46,72 @@ ul li{
 
     .footerContainer{
         width: 992px;
+    }
+}
+
+@media only screen and (min-width:577px) and (max-width:768px){
+
+    .footerContainer{
+        width: 768px;
+        height: 210px;
+    }
+
+    .divContUbi{
+        padding-top: 0px;
+        height: 170px;
+    }
+
+    .ulFooter{
+        margin: 0;
+    }
+    
+    .h3Contacto{
+        font-size: 30px;
+        margin: 0;
+    }
+    
+    .listaDatos{
+        font-size: 20px;
+    }
+
+    .divDerechos{
+        padding-top: 5px;
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width:415px) and (max-width:576px){
+
+    .footerContainer{
+        width: 576px;
+        height: 205px;
+    }
+
+    .divContUbi{
+        padding-top: 30px;
+        margin: 0;
+        height: 140px;
+    }
+
+    .h3Contacto{
+        font-size: 25px;
+        margin: 0;
+    }
+
+    .ulFooter{
+        margin: 0;
+    }
+
+    .listaDatos{
+        font-size: 18px;
+    }
+
+    .divDerechos{
+        padding-top: 35px;
+        margin: 0;
+    }
+
+    .divDerechos h5{
+        margin: 0;
     }
 }

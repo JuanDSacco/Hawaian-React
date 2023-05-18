@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat:wght@500;600&family=Raleway:ital,wght@1,500&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .barraNav{
     background-image: linear-gradient(rgba(255, 0, 0, 0.603),orange,rgba(255, 0, 0, 0.603));
     width: 1440px;
@@ -41,5 +46,55 @@
 
     .barraNav{
         width: 992px;
+    }
+}
+
+@media only screen and (min-width:577px) and (max-width:768px){
+
+    .barraNav{
+        width: 768px;
+    }
+
+    .listaIndiv{
+        font-size: 25px;
+    }
+}
+
+@media only screen and (min-width:415px) and (max-width:576px){
+
+    .barraNav{
+        width: 576px;
+        height: 135px;
+    }
+    
+    .ulNavBar{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+                            'li3navBar li4NavBar'
+                            'li1NavBar li2NavBar';
+        padding-left: 110px;
+        grid-column-gap: 70px;
+    }
+
+    .listaIndiv{
+        font-size: 40px;
+    }
+
+    #li1NavBar{
+        grid-area: 'li1NavBar';
+    }
+
+    #li2NavBar{
+        grid-area: 'li2NavBar';
+    }
+
+    #li3NavBar{
+        grid-area: 'li3NavBar';
+    }
+
+    #li4NavBar{
+        grid-area: 'li4NavBar';
     }
 }

@@ -28,3 +28,18 @@
         width: 992px;
     }
 }
+
+@media only screen and (min-width:577px) and (max-width:768px){
+
+    .cartVacio{
+        width: 768px;
+    }
+}
+
+@media only screen and (min-width:415px) and (max-width:576px){
+
+    .cartVacio{
+        width: 576px;
+        padding-top: 70px;
+    }
+}

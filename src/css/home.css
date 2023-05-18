@@ -25,11 +25,11 @@ header{
     border-radius: 5px;
 }
 
-h1{
+.h1Home{
     font-size: 50px;
 }
 
-.span{
+.spanHome{
     color: rgb(212, 119, 65);
     font-size: 70px;
 }
@@ -53,11 +53,66 @@ h2{
     
     header{
         width: 992px;
-        height: 600px;
+        height: 570px;
     }
 
     .img_index{
         width: 992px;
-        height: 600px;
+        height: 570px;
+    }
+}
+
+@media only screen and (min-width:577px) and (max-width:768px){
+
+    header{
+        width: 768px;
+        height: 460px;
+    }
+
+    .h1Home{
+        font-size: 40px;
+    }
+
+    .spanHome{
+        font-size: 55px;
+    }
+
+    .h2Home{
+        font-size: 35px;
+    }
+
+    .img_index{
+        width: 768px;
+        height: 460px;
+    }
+}
+
+@media only screen and (min-width:415px) and (max-width:576px){
+
+    header{
+        width: 576px;
+        height: 350px;
+    }
+
+    .img_index{
+        width: 576px;
+        height: 350px;
+    }
+
+    .h1_h2{
+        padding-top: 90px;
+    }
+
+    .h1Home{
+        font-size: 32px;
+        color: transparent;
+    }
+
+    .spanHome{
+        font-size: 80px;
+    }
+
+    .h2Home{
+        color:transparent;
     }
 }

@@ -14,11 +14,15 @@
 .input-form{
     font-family: 'Caveat', cursive;
     font-size: 30px;
+    border: 1px solid orange;
+    border-radius: 5%;
 }
 
 .message-form{
     font-family: 'Caveat', cursive;
     font-size: 20px;
+    border: 1px solid orange;
+    border-radius: 7%;
 }
 
 .boton-form{
@@ -57,5 +61,23 @@
 
     .container-form{
         width: 992px;
+    }
+}
+
+@media only screen and (min-width:577px) and (max-width:768px){
+
+    .container-form{
+        width: 768px;
+    }
+}
+
+@media only screen and (min-width:415px) and (max-width:576px){
+
+    .container-form{
+        width: 576px;
+    }
+
+    .divBtnFrom{
+        padding-left: 0px;
     }
 }

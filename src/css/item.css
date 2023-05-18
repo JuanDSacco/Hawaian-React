@@ -39,3 +39,25 @@
         width: 992px;
     }
 }
+
+@media only screen and (min-width:577px) and (max-width:768px){
+
+    .contenedor-carta{
+        width: 768px;
+    }
+
+    .hrItem{
+        width: 768px;
+    }
+}
+
+@media only screen and (min-width:415px) and (max-width:576px){
+
+    .contenedor-carta{
+        width: 576px;
+    }
+
+    .hrItem{
+        width: 576px;
+    }
+}

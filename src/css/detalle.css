@@ -30,3 +30,26 @@ background-image: linear-gradient(rgba(255, 0, 0, 0.603),orange,rgba(255, 0, 0, 
         width: 992px;
     }
 }
+
+@media only screen and (min-width:577px) and (max-width:768px){
+
+    .containerDetalle{
+        width: 768px;
+    }
+
+    .pDetalle{
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width:415px) and (max-width:576px){
+
+    .containerDetalle{
+        width: 576px;
+        padding: 30px;
+    }
+
+    .pDetalle{
+        font-size: 30px;
+    }
+}

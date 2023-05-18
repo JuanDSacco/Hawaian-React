@@ -36,3 +36,17 @@ span{
         width: 992px;
     }
 }
+
+@media only screen and (min-width:577px) and (max-width:768px){
+
+    .container-detalle{
+        width: 768px;
+    }
+}
+
+@media only screen and (min-width:415px) and (max-width:576px){
+
+    .container-detalle{
+        width: 576px;
+    }
+}

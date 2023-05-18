@@ -8,3 +8,9 @@
     padding-right: 35px;
 }
 
+@media only screen and (min-width:415px) and (max-width:576px){
+    
+    .listaRedes{
+        font-size: 25px;
+    }
+}
