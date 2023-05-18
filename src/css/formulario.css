@@ -47,7 +47,6 @@
 
 .divBtnFrom{
     padding-top: 20px;
-    padding-left: 50px;
 }
 
 @media only screen and (min-width:993px) and (max-width:1200px){
@@ -68,6 +67,10 @@
 
     .container-form{
         width: 768px;
+    }
+
+    .divBtnFrom{
+        padding-left: 0;
     }
 }
 
