@@ -53,3 +53,14 @@ background-image: linear-gradient(rgba(255, 0, 0, 0.603),orange,rgba(255, 0, 0, 
         font-size: 30px;
     }
 }
+
+@media only screen and (min-width:360px) and (max-width:414px){
+
+    .containerDetalle{
+        width: 414px;
+    }
+
+    .pDetalle{
+        font-size: 30px;
+    }
+}

@@ -50,3 +50,10 @@ span{
         width: 576px;
     }
 }
+
+@media only screen and (min-width:360px) and (max-width:414px){
+
+    .container-detalle{
+        width: 414px;
+    }
+}

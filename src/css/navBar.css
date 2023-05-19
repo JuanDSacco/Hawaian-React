@@ -98,3 +98,44 @@
         grid-area: 'li4NavBar';
     }
 }
+
+@media only screen and (min-width:360px) and (max-width:414px){
+
+    .barraNav{
+        width: 414px;
+        height: 140px;
+    }
+
+    .listaIndiv{
+        font-size: 35px;
+    }
+
+    .ulNavBar{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+                            'li3navBar li4NavBar'
+                            'li1NavBar li2NavBar';
+        padding-left: 50px;
+        padding-top: 7px;
+        grid-column-gap: 70px;
+        grid-row-gap: 15px;
+    }
+
+    #li1NavBar{
+        grid-area: 'li1NavBar';
+    }
+
+    #li2NavBar{
+        grid-area: 'li2NavBar';
+    }
+
+    #li3NavBar{
+        grid-area: 'li3NavBar';
+    }
+
+    #li4NavBar{
+        grid-area: 'li4NavBar';
+    }
+}
