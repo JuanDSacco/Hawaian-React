@@ -72,3 +72,14 @@
         width: 414px;
     }
 }
+
+@media only screen and (min-width:280px) and (max-width:359px){
+
+    .contenedor-carta{
+        width: 359px;
+    }
+
+    .hrItem{
+        width: 359px;
+    }
+}

@@ -52,3 +52,12 @@
         padding-top: 40px;
     }
 }
+
+@media only screen and (min-width:280px) and (max-width:359px){
+
+    .cartVacio{
+        width: 359px;
+        padding: 10px;
+        padding-top: 30px;
+    }
+}

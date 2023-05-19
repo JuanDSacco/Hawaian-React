@@ -143,3 +143,33 @@ ul li{
         padding-top: 15px;
     }
 }
+
+@media only screen and (min-width:280px) and (max-width:359px){
+
+    .footerContainer{
+        width: 359px;
+        height: 240px;
+    }
+
+    .divContUbi{
+        padding: 0;
+    }
+
+    .divDerechos{
+        padding: 0;
+    }
+
+    .h3Contacto{
+        font-size: 27px;
+        padding: 0;
+    }
+
+    .listaDatos{
+        font-size: 20px;
+    }
+
+    .ulFooter{
+        font-size: 20px;
+        padding: 0;
+    }
+}
