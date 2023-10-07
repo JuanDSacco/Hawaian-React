@@ -19,4 +19,3 @@ const ItemDetailContainer = () => {
 
 export default ItemDetailContainer;   
 
-// const filteredMovies = data.filter((movie) => movie.titulo.toLowerCase().includes(buscar.toLowerCase()))
